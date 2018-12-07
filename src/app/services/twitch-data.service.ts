@@ -18,10 +18,9 @@ export class TwitchDataService {
       .pipe(map(res => res['data']));
   }
   getTop10Streams(gameID) {
-    
+
     return this.http.get(`${this.baseURL}//helix/streams?first=10`, { headers: { 'Client-ID': clientID } })
-      .pipe(map(res =>{ console.log(res['data']);
-       return res['data']}));
+      .pipe(map(res => res['data']));
   }
 
   getImage(imageURL) {
