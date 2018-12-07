@@ -1,0 +1,10 @@
+.container {
+    width: 100vh;
+    display: flex;
+    flex-flow: row wrap;
+    text-align: center;
+}
+p {
+    width: 100vw;
+    font-size: 10px;
+}

@@ -1,0 +1,41 @@
+h2 {
+    height: 60px;
+    overflow: hidden;
+}
+div {
+}
+.streamContainer {
+    margin: 0;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    flex: 1;
+    padding: 5% 0 0 0;
+    align-items: stretch;
+    padding-bottom: 60px;
+}
+.lessImportantInfo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.streamer .viewers{
+    flex: 1;
+}
+.streamInfo {
+    width: 80%;
+    align-self: center;
+}
+img { 
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 90%;
+    height: auto;
+}
+
+@media (min-width: 1024px) {
+    .streamContainer {
+        width: 50vh;
+    }
+}

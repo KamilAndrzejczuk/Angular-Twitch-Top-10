@@ -1,0 +1,18 @@
+.gameContainer {
+    display: flex;
+    flex-direction: column;
+    width: 40vw;
+    flex: 1;
+    padding: 5% 0 0 5%;
+}
+
+img { 
+    max-width: 100%;
+    height: auto;
+}
+
+@media (min-width: 1024px) {
+    .gameContainer {
+        width: 50vh;
+    }
+}

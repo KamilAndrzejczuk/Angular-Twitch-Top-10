@@ -1,0 +1,4 @@
+<div>
+    <app-top-game routerLink="/streams/{{game.id}}" *ngFor="let game of top10games$ | async" [game]="game">
+    </app-top-game>
+</div>
